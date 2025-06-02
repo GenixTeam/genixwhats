@@ -69,7 +69,7 @@ class GenixNotification(Notification):
                     frappe.msgprint(_(f"Failed to send text message to {phone_number}"), alert=True)
 
 
-            time.sleep(5)
+            time.sleep(2)
 
         if sent_numbers:
             frappe.msgprint(_(f"WhatsApp message sent to: {', '.join(sent_numbers)}"))
