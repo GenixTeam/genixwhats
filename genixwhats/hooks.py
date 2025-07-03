@@ -32,7 +32,7 @@ fixtures = [
 ]
 
 
-app_include_css = "/assets/genixwhats/css/whatsapp_loader.css"
+#app_include_css = "/assets/genixwhats/css/whatsapp_loader.css"
 app_include_js = "/assets/genixwhats/js/button_send_whatsapp.js"
 
 # Apps
